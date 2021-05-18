@@ -3,8 +3,10 @@
 #HETEROGENOUS (list are mostly homogenous)
 #ACCESSED THROUGH UNPACKING (list accessed through iteration)
 #EXAMPLE
-myTuple = 'victor', 23, 65.3,'Thindigua'
-print(myTuple[2])
+import Functions
+myList = Functions.fib(34)
+myTuple = 'victor', 23, 65.3,'Thindigua',myList
+print(myTuple)
 
 #CAN BE NESTED
 nTuple = 'victor',(53,63, 'Windsor')
